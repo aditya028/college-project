@@ -1,0 +1,26 @@
+.bg-img {
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  z-index: -1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+#btn-left {
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  cursor: pointer;
+}
+#btn-right {
+  position: absolute;
+  top: 20vh;
+  right: 0;
+  cursor: pointer;
+}
+.item-container {
+  height: 30vh;
+  border: 3px solid red;
+  margin: 0 1rem 1rem 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
