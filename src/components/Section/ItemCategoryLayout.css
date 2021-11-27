@@ -1,10 +1,9 @@
 .card {
-  width: 28%;
-  height: 25rem;
+  width: 20%;
+  height: 20rem;
   background-color: rgb(243, 241, 248);
-  margin-bottom: 5rem;
-  box-shadow: 5px 5px rgb(221, 156, 59);
-  /* cursor: pointer; */
+  margin: 0 1rem 5rem 1rem;
+  box-shadow: 10px 10px 5px rgb(231, 201, 154);
 }
 .card img {
   width: 100%;

@@ -3,12 +3,12 @@ import styled from "styled-components";
 import Search from "./Search";
 import User from "./User";
 
-function Header(props) {
+function Header({ cartItem }) {
   return (
     <Wrapper>
       <Logo></Logo>
       <Search />
-      <User />
+      <User cartItem={cartItem} />
     </Wrapper>
   );
 }
@@ -16,7 +16,7 @@ function Header(props) {
 export default Header;
 
 const Wrapper = styled.div`
-  background: #66a3ff;
+  background: rgb(255, 193, 7);
   height: 10vh;
   display: flex;
   justify-content: space-between;
