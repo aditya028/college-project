@@ -5,6 +5,7 @@ import Section from "./components/Section/Section";
 import Product from "./components/Section/products/Product";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CartPage from "./components/Header/CartPage";
 
 function App() {
   const [cartItem, setCartItem] = useState([]);
@@ -14,6 +15,9 @@ function App() {
         <Header cartItem={cartItem} />
         <Route path="/" exact>
           <Section />
+        </Route>
+        <Route path="/cart" exact>
+          <CartPage cartItem={cartItem} setCartItem={setCartItem} />
         </Route>
         <Route path="/:titleId">
           <Product

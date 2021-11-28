@@ -3,18 +3,22 @@ import { useParams } from "react-router";
 import styled from "styled-components";
 import { getItem } from "../fakeCategory";
 import ProductLayout from "./ProductLayout";
+import getCategory from "../fakeCategory";
 
 function Product({ title, cartItem, setCartItem }) {
   let { titleId } = useParams();
   const items = getItem();
+  const category = getCategory();
   const selectedItem = items.filter((obj) => obj.category === titleId);
+  let selectedCategory = category.filter((obj) => obj.title === titleId);
+  if (selectedCategory.length === 0) selectedCategory = "";
   return (
     <div>
       <Container>
-        <h1>{titleId}</h1>
+        <h1>{selectedCategory && selectedCategory[0].title}</h1>
         {selectedItem.map((itemDetail) => (
           <ProductLayout
-            key={itemDetail.path}
+            key={itemDetail.title + itemDetail.path}
             item={itemDetail}
             cartItem={cartItem}
             setCartItem={setCartItem}

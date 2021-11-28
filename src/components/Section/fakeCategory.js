@@ -1988,16 +1988,7 @@ const item = [
     discount: "Save ₹1,500 (60%)",
     category: "Headphone",
   },
-  {
-    path: "https://m.media-amazon.com/images/I/71yeUNxu0kL._AC_UY218_.jpg",
-    title:
-      "Boult Audio Bass Buds Q2 Bluetooth Wired Over Ear Headphones with Mic (Black)",
-    rating: "3.9 out of 5 stars",
-    dis_price: "599",
-    org_price: "2,490",
-    discount: "Save ₹1,891 (76%)",
-    category: "Headphone",
-  },
+
   {
     path: "https://m.media-amazon.com/images/I/61l8G7a56QL._AC_UY218_.jpg",
     title: "Redgear Cloak Wired RGB Gaming Headphones with Microphone for PC",
@@ -2025,16 +2016,6 @@ const item = [
     dis_price: "799",
     org_price: "1,999",
     discount: "Save ₹1,200 (60%)",
-    category: "Headphone",
-  },
-  {
-    path: "https://m.media-amazon.com/images/I/71q--MThR1L._AC_UY218_.jpg",
-    title:
-      "Boult Audio ProBass Thunder Over-Ear Wireless Bluetooth Headphones with Mic, Headset with Passive Noise Cancellation & Long Battery Life",
-    rating: "3.8 out of 5 stars",
-    dis_price: "899",
-    org_price: "3,999",
-    discount: "Save ₹3,100 (78%)",
     category: "Headphone",
   },
   {
