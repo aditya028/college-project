@@ -24,7 +24,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative;
-  bottom: 18rem;
+  // position: absolute;
+  // top: 25em;
   margin: 0 4%;
 `;

@@ -15,7 +15,7 @@ function App() {
         <Route path="/" exact>
           <Section />
         </Route>
-        <Route path="/:title">
+        <Route path="/:titleId">
           <Product
             title="Laptop"
             cartItem={cartItem}

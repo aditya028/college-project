@@ -5,7 +5,7 @@ function Search(props) {
   return (
     <Input>
       <input id="input-txt" type="text" />
-      <button type="button" class="btn btn-primary">
+      <button type="button" className="btn btn-primary">
         Search
       </button>
     </Input>
