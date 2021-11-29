@@ -17,7 +17,7 @@ function ProductLayout({ item, cartItem, setCartItem }) {
         <br />
         <button
           id="btn"
-          onClick={() => setCartItem((cartItem) => [...cartItem, { item }])}
+          onClick={() => setCartItem((cartItem) => [...cartItem, item])}
         >
           Add To Cart
         </button>
