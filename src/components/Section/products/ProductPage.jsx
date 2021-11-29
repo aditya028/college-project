@@ -15,7 +15,7 @@ function ProductPage({ item, cartItem, setCartItem }) {
       <Button
         variant="contained"
         color="success"
-        style={({ margin: "10px" }, { position: "relative" }, { left: "40%" })}
+        style={({ position: "relative" }, { left: "40%" })}
         id="btn"
         onClick={() => setCartItem((cartItem) => [...cartItem, item])}
       >
