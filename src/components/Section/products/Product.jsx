@@ -2,8 +2,8 @@ import React from "react";
 import { useParams } from "react-router";
 import styled from "styled-components";
 import { getItem } from "../fakeCategory";
-import ProductLayout from "./ProductLayout";
 import getCategory from "../fakeCategory";
+import ProductPage from "./ProductPage";
 
 function Product({ title, cartItem, setCartItem }) {
   let { titleId } = useParams();
@@ -17,7 +17,7 @@ function Product({ title, cartItem, setCartItem }) {
       <Container>
         <h1>{selectedCategory && selectedCategory[0].title}</h1>
         {selectedItem.map((itemDetail) => (
-          <ProductLayout
+          <ProductPage
             key={itemDetail.title + itemDetail.path}
             item={itemDetail}
             cartItem={cartItem}

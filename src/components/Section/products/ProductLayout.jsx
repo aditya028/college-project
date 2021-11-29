@@ -15,12 +15,6 @@ function ProductLayout({ item, cartItem, setCartItem }) {
         <span id="a-price">₹{item.org_price}</span>
         {item.discount}
         <br />
-        <button
-          id="btn"
-          onClick={() => setCartItem((cartItem) => [...cartItem, item])}
-        >
-          Add To Cart
-        </button>
       </div>
     </Container>
   );
@@ -31,7 +25,6 @@ const Container = styled.div`
   border-top: 2px solid rgb(221, 221, 221);
   padding: 10px;
   height: 35vh;
-  margin: 50px 13% 0 13%;
   display: flex;
   align-content: space-around;
   .itemDetail {
