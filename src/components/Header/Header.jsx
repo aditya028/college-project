@@ -6,7 +6,7 @@ import User from "./User";
 function Header({ cartItem }) {
   return (
     <Wrapper>
-      <Logo></Logo>
+      {/* <Logo></Logo> */}
       <Search />
       <User cartItem={cartItem} />
     </Wrapper>

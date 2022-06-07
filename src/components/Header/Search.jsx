@@ -16,8 +16,9 @@ export default Search;
 
 const Input = styled.div`
   width: 60%;
-  display: flex;
-  align-items: center;
+  margin-left: 20%;
+  // display: flex;
+  // align-items: center;
   #input-txt {
     margin: 5px;
     width: 90%;

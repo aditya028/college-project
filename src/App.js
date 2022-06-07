@@ -3,9 +3,9 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Section from "./components/Section/Section";
 import Product from "./components/Section/products/Product";
+import CartPage from "./components/Header/CartPage";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CartPage from "./components/Header/CartPage";
 
 function App() {
   const [cartItem, setCartItem] = useState([]);

@@ -37,10 +37,7 @@
   cursor: pointer;
   border: 0;
 }
-#btn-right:hover,
-#btn-left:hover {
-  border: 3px solid black;
-}
+
 .item-container {
   /* height: 30vh;
   width: 30vw; */
