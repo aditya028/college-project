@@ -1,12 +1,36 @@
 const category = [
-  { title: "MenFootwear", path: "/images/footwear.jpg" },
-  { title: "MenTopwear", path: "/images/men_topwear.jpg" },
-  { title: "WomenTopwear", path: "/images/women_topwear.jpg" },
-  { title: "WomenFootwear", path: "/images/footwear_women.jpg" },
-  { title: "Watch", path: "/images/watches.jpg" },
-  { title: "Headphone", path: "/images/headphone.jpg" },
-  { title: "Mobile", path: "/images/mobile.png" },
-  { title: "Laptop", path: "/images/laptop.png" },
+  {
+    title: "MenFootwear",
+    path: "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/Wthut-box/PC/MF-2-187-116._SY116_CB621918451_.jpg",
+  },
+  {
+    title: "MenTopwear",
+    path: "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/SS22/AFpage/Unrec/SBC-mens/English/2-SBC-mens_03.jpg",
+  },
+  {
+    title: "WomenTopwear",
+    path: "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/SS22/AFpage/Unrec/SBC-Womens/English/1-SBC-womens_03.jpg",
+  },
+  {
+    title: "WomenFootwear",
+    path: "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/SS22/UnRec/RevSBC/Footwear/womens/eng/eng-womens-shoes_04.jpg",
+  },
+  {
+    title: "Watch",
+    path: "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/459f980b-73c2-43e1-be5c-4b226f3ea676._CR0,0,1200,628_SX507_QL70_.jpg",
+  },
+  {
+    title: "Headphone",
+    path: "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/8a49ac97-ed6d-4cab-96bc-fa00c0ae0a45._CR0,0,1200,628_SX507_QL70_.jpg",
+  },
+  {
+    title: "Mobile",
+    path: "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_UY327_FMwebp_QL65_.jpg",
+  },
+  {
+    title: "Laptop",
+    path: "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/f25f26bf-99c0-431e-a15c-bcf022dd1472._CR0,0,1200,628_SX507_QL70_.jpg",
+  },
 ];
 
 export default function getCategory() {

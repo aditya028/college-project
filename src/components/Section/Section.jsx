@@ -5,10 +5,10 @@ import ItemCategory from "./Item-Category";
 function Section(props) {
   const [imgIndex, setIndex] = useState(0);
   const img = [
-    "/images/background3.jpg",
-    "/images/background1.jpg",
-    "/images/background2.jpg",
-    "/images/background4.jpg",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img22/1999/heros/cepc/eng/1999_GW_tallhero_1500x600._CB633803402_.jpg",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2022/BAU/ATFGW/300X1200__bedsheet_SC._CB633837437_.jpg",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonLaunchpad/2022/EBD/June/2x_EBD_Hero_3_PC._CB633813928_.jpg",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/Unrec/GW/June/Smartwatch_DesktopTallHero_3000x1200._CB634721318_.jpg",
   ];
   function handleImageChange(side) {
     if (side === "left") setIndex(imgIndex === 0 ? imgIndex : imgIndex - 1);
